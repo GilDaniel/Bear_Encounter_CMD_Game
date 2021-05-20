@@ -1,10 +1,14 @@
+/*
+    Bear Encounter Game- For Windows
+                                    */
+
 #include <iostream>
 #include <windows.h>
 #include <ctime>
 int main(){
     srand(time(NULL));
     std::cout << "===================================\n";
-    std::cout << "=======CMDGAME-BY Gil Daniel=======\n";
+    std::cout << "======CMD Game- BY Gil Daniel======\n";
     std::cout << "===================================\n\n";
 
     std::cout << "You are walking in the woods and see a bear going towards you, what will you do?\n";
